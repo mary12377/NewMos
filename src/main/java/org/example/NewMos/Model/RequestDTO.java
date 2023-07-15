@@ -7,7 +7,6 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-//@Entity
 
 public class RequestDTO {
     private String rqUID;

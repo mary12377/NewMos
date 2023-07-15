@@ -9,7 +9,6 @@ import java.math.BigDecimal;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-//@Entity
 
 public class ResponseDTO {
 
@@ -17,7 +16,7 @@ public class ResponseDTO {
     private String clientId;
     private String account;
     private String currency;
-    private BigDecimal balance;
+    private String balance;
     private BigDecimal maxLimit;
 
 }
